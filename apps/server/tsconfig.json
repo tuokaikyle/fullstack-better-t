@@ -1,13 +1,13 @@
 {
-	"extends": "@full-stack-better-t/config/tsconfig.base.json",
-	"compilerOptions": {
-		"composite": true,
-		"outDir": "dist",
-		"baseUrl": ".",
-		"paths": {
-			"@/*": ["./src/*"]
-		},
-		"jsx": "react-jsx",
-		"jsxImportSource": "hono/jsx"
-	}
+  "extends": "@full-stack-better-t/config/tsconfig.base.json",
+  "compilerOptions": {
+    "composite": true,
+    "outDir": "dist",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "jsx": "react-jsx",
+    "jsxImportSource": "hono/jsx"
+  }
 }
